@@ -15,6 +15,10 @@ int main()
  
     cout << PAIR1.first << " ";
     cout << PAIR1.second << endl;
+    pair<int , pair<int,int>>R={{1},{2,3}};// pair ke andar pair 
+    cout<<R.first<<endl;
+    cout<<R.second.first<<endl;
+    cout<<R.second.second<<endl;
  
     return 0;
 }
